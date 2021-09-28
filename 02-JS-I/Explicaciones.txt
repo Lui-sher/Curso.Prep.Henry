@@ -1,0 +1,15 @@
+Variables: son espresiones que nos permiten guardar informacion ya sea numerica o alfabetica, 
+como por ejemplo: Var numero = 5; Var texto = "abc"; 
+
+Strings: son lineas que representan texo y para demarcarlo siempre se escriben dentro de comillas "".
+Ejemplo: var estudiante = "Luis Martelo" // en este caso definimos una variable tipo Strings con el nombre estudiante que guarda el texto "Luis Martelo"
+
+Funciones (argumentos, return): una funcion es una operacion matematica definida por el programador en la que usa variables definidas o no, para desarrollar estas operaciones.
+Para declara una funcion debemos ponerle nombre y a continuacion la operacion que queremos que desarrolle
+Ejemplo: funtion suma (a,b) {a + b};// en este caso el nombre de nuestra funcion es "suma" y su operacion es sumar dos numeros a y b
+return: nos permite remplazar el argumento console.log() dentro de una funcion, y mostrar el resultado de la operacion realizada por la funcion, pero anteriormente debemos asignar el resultado dentro de una variable
+Ejemplo: funtion suma (a, b) {var resultado = a + b; return resultado;}
+
+Declaraciones if y valores Booleanos: mediante los condicionales mayor que, menor que, igual a... (<, >, =, <=, >=) podemos hacer que el programa tome una decision, dependiendo del resultado, esta sera True o False 
+si al verificar la condicion se cumple emtonces arrojará un true, de lo contrario será un false.
+
