@@ -1,0 +1,17 @@
+For: nos permite mediante una codicion hacer que una seccion
+de codigo se ejecute tantas veces, mientras que dicha condicion 
+sea falsa, en el momento en que dicha condicion se vuelve 
+verdadera, dejará de repetir esa seccion de codigo, es lo que se 
+conoce como bucle.
+
+&&: este es un operador logico, que permite evaluar dos condiciones
+si y solo si ejecutará el codigo cuando ambas condiciones sean verdaderas.
+
+||: este es otro operador logico, que nos permitirará correr un comando
+si y solo si una de dos condiciones a evaluar es verdadra(true)
+
+!: este operador logico, ivierte las reglas de evaluacion de una condicion,
+si el resultado de una condicion en verdadero(true) este operador 
+automaticamente lo convierte en falso(false) y viceversa. 
+
+Ej: 1>10 = false;  !(1>10)= true;
