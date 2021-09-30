@@ -1,0 +1,17 @@
+Array: los array son como especie de contenedores vacios
+que estan disponibles para ser llenados. pueden ser llenados
+con variables tipo numero o tipo string, asi como tambien se
+les puede llenar con alguna funcion().
+
+Los bloques vacios o llenos en un array se pueden localizar 
+mediante un numero que representa el contenedor, el primer 
+contenedor se ubica en la posicion 0, al leerse de izquierda 
+a derecha iran incrementando en 1
+Ejemplo: const cosas = [54, "F", 22, 100, 45]
+          localizacion:  0   1    2   3   4
+          
+Como vemos los arrays se caracterizan porque estan enmarcados
+entre brakets [ ] y en este caso el array 'cosas' cuenta con 
+5 contenedores llenos, el contenedor #3 contiene un numero (100)
+el contenedor #1 está lleno con una letra (F) y asi es como 
+podemos ubicar tales contenedores.
