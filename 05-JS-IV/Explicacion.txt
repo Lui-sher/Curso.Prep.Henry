@@ -1,0 +1,33 @@
+*Objetos: similar a los arrays, son una matriz esprando a ser llenada 
+con variables, numeros, funciones, o texto; con la diferencia que 
+para localizar su ubicacion no depende del slot que ocupe an la lista,
+sino que nos permite asignarle un nombre a cada slot, y de esta forma 
+poder localizar la ubicacion de su contenido mas facilmente.
+
+Ejemplo: listaDeUtiles = {
+    libros: Progrmacion,
+    materias: "tecnologia",
+    calculadora: function (){ return "programa para calcualr sumas";}
+    numeros: [32, 05, 40, 41, 18],
+    objeto: {nombre: "Luis", apellido: "Martelo", edad: 32}
+}
+
+como vemos dentro de un objeto podemos introducir funciones, arreglos
+otros ojetos, numeros, texto...
+
+*propiedades: nos referimos a las propiedades, a los nombres que le
+designan a los eslots, tomando en cuenta el ejemplo anterior, las 
+propiedades del objeto "listaDeUtiles" vienen siendo libros, materias,
+calculadora, numeros y objeto
+
+*Metodos: viene siendo principalmente las funciones que esten dentro 
+del objeto, en el caso del ejemplo de arriba, seria la funcion calculadora, 
+en conclucion hace algo previamente programado, ya sea por el programador como en 
+este caso, o establecido desde el mismo lenguaje de programacion. 
+
+*Bucle for...in: nos permite que unas lineas de codigo se repita definidamente,
+pero especificamente dentro de un objeto selecionado.
+
+*Notacion de puntos Vs notacion de corchetes: la notacion de puntos nos permite 
+escribir mas rapido al querer referenciar un elemento en un objeto
+Ejemplo: listaDeUtiles["materias"] <es equivalente a> listaDeUtiles.materias
