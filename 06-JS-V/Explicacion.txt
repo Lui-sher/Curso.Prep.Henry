@@ -1,0 +1,11 @@
+*Prototype: cuando creamos un objeto, Javascript de forma predeterminadad le asigna un Prototipo, que vienen siendo funciones base que nos
+permiten interactuar con dicho objeto, por otro lado, nosotros tambien podemos asignarle un Prototipo al objeto que estamos creando para
+que tenga una funcion definida por nosotros, pero adicionalmente, aunque le asignemos un prototipo, este objeto heredará tambien el prototipo
+base determinado por Javascript, a la final, lo que podemos hacer con los prototipos es heredar funcione creadas por nosotros a todos los
+objetos que deseemos, de forma tal que cuando llamenos un valor uasando un Prototipo, el programa buscará en los distintos prototipos dicha 
+referencia. 
+
+los Prototipos siempre estan desarrollados por niveles, ramificandose de forma que permite organizar mejor los objetos.
+
+*Constructors (de Clases): son funciones que nos permiten generar plantillas de objetos con distintas claves predeterminadad y con sus respectivos
+valores en blanco o vacios, con esto, podemos ahorrar tiempo y memoria al no tener que escribir cada objeto literal con sus respectivos argumentos.
