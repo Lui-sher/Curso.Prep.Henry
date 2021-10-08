@@ -1,0 +1,3 @@
+Funciones Callback: es un metodo que se usa para usar funcione o llamar funciones directamente previamente creadas, en pocas palabras es llamar 
+funciones dentro de otras funciones, solo como referenciar el nombre de la funcion y su o sus respectivos elementos requeridos para la misma
+funcion llamada.
